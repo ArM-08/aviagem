@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "tommy";
+    src: url(../fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: "tommy";
+    src: local("tommy"), url(../fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf) format('otf');
+ 
+  }
+.news{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cartao{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.newsletter{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+.promo{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+
+}
+.tpromo{
+    font-family:'tommy';
+padding: 30px
+}
+.t2promo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic 
+}
+
+.promocoes{
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.cardD-body{
+    background-color: rgba(255, 255, 255, 0.486);
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    text-align: justify-all;
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.cardD-title{
+    padding-bottom: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.cardD-title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.container-conta{
+    background-image: linear-gradient(rgb(255, 197, 197), white);
+    padding: 20px;
+}
+.tel{
+    font-style: italic;
+}
+.container-cards{
+    padding: 15px;
+  
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 197, 197), white)
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  /* medium and up screens */
+  @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+  
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+  }
+
+  .blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+  }
+  
+  .blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    font-size: 1.7rem;
+  }
+
+  .AdminContainer{
+    width:100%;
+    min-height: 900px;
+    display: flex;
+  }
+
+  .boardAdmin{
+    display: flex;
+    width:100%;
+    margin-left: 10px;
+  }
+ 

@@ -1,0 +1,20 @@
+.busca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 20px;
+    max-height: 50px;
+    height: 50px;
+    }
+    .buscaContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+     
