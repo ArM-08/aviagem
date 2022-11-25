@@ -1,5 +1,5 @@
 .nav__cont {
-    width: 60px;
+    width: 50px;
     top: 20px;
     height: 100vh;
     z-index: 100;
@@ -8,13 +8,14 @@
     transition:  0.3s ease;
     cursor: pointer;
     box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
+
   }
   .nav__cont:hover {
     width: 200px;
   }
   @media screen and (min-width: 600px) {
     .nav__cont {
-      width: 80px;
+      width: 50px;
     }
   }
   .nav {
@@ -32,17 +33,23 @@
     position: relative;
     display: block;
     top: 15px;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-right: 15px;
     transition: all 0.3s ease;
-    margin-left: 25px;
+    margin-left: 5px;
     margin-right: 10px;
     text-decoration: none;
     color: white;
     font-family: 'roboto';
     font-weight: 100;
     font-size: 1.35em;
+    
+    
   }
+  @media screen and (max-width: 600px) {
+    .nav__items a {
+      font-size: 1.00em;}
+    }
   .nav__items a:after {
     content: '';
     width: 100%;
@@ -60,36 +67,40 @@
     opacity: 1;
   }
   .logoCarrinho{
-    top: 0;
-    position: absolute;
-    width: 50px;
-    margin-left: 20px;
+  
+    width: 30px;
+    margin-left: 10px;
     margin-top: 30px;
   }
   
   .logoAviao{
-    top: 11%;
-    position: absolute;
-    width: 50px;
-    margin-left: 20px;
+  
+    width: 30px;
+    margin-left: 10px;
     margin-top: 30px;
   }
   
   .logoCaderno{
-    top: 21%;
-    position: absolute;
-    width: 40px;
-    margin-left: 25px;
+
+ 
+    width: 30px;
+    margin-left: 10px;
     margin-top: 30px;
   }
   
  
   .logout{
-  
+   
     width: 100%;
+
 
     
   }
+
+  @media screen and (max-width: 600px) {
+    .nav__items a {
+      font-size: 1.00em;}
+    }
   .logLink{text-decoration: none;
 color: white;
 text-align: center;

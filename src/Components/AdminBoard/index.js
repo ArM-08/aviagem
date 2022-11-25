@@ -17,7 +17,7 @@ const AdminBoard = () => {
         </div>
       </div>
       <div className="boardAdmin">
-        
+        <h1 className="tituloDest">Destinos</h1>
         </div>
         <Pesquisa/>
         </div>

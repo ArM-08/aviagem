@@ -5,6 +5,8 @@ import "./index.css"
 
 
 const Pesquisa=()=> {
+
+
     const [destinosPesquisados, setDestinosPesquisados] = useState([])
     const fazPesquisa =(evento) => {
         const destinoDigitado =evento.target.value
@@ -15,10 +17,10 @@ const Pesquisa=()=> {
 
     return (
         <div className="buscaContainer">
-            <h1 class='col-12'>Destinos</h1>
-        <input className='busca col-12' type="text"  placeholder="Pesquisa"  onChange={evento => fazPesquisa(evento)}
+           <div className="inputContainerBusca">
+        <input className='busca' type="text"  placeholder="Pesquisa"  onChange={evento => fazPesquisa(evento)}
         />
-
+            </div>
     {destinosPesquisados.map(destino=> ( 
 
 <div className="card my-5">

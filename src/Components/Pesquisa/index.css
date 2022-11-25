@@ -1,14 +1,15 @@
 .busca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  
+
     margin-bottom: 20px;
     cursor: pointer;
     border-radius: 10px;
-    width: 50%;
-    margin-left: 20px;
+    width: 30%;
+    margin-left: 0px;
     max-height: 50px;
     height: 50px;
+    
     }
     .buscaContainer{
         display: flex;
@@ -16,5 +17,12 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: 100%;
+        margin-left: 20px;
     }
-     
+     .inputContainerBusca{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+     }
